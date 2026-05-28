@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="民法实务知识库 - 面向诉讼实战的系统化知识框架"><meta name="generator" content="Astro v5.18.2"><link rel="icon" type="image/svg+xml" href="/minfa-kb/favicon.svg"><title>竞业限制 | 民法实务知识库</title><script>
+    (function() {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/minfa-kb/_astro/index.kUTxuAnQ.css"></head> <body class="bg-primary-50 dark:bg-primary-950 text-gray-900 dark:text-gray-100 font-sans min-h-screen flex flex-col"> <!-- Reading Progress --> <div id="reading-progress" class="fixed top-0 left-0 h-[2px] bg-accent-500/80 z-50 transition-all duration-150" style="width: 0%"></div> <!-- Header --> <header class="sticky top-0 z-40 bg-white/90 dark:bg-primary-900/90 backdrop-blur-sm border-b border-primary-200 dark:border-primary-800/60"> <div class="max-w-[1400px] mx-auto px-6 h-14 flex items-center justify-between"> <div class="flex items-center gap-3"> <a href="/minfa-kb/" class="flex items-center gap-2.5 text-base font-semibold tracking-tight text-primary-700 dark:text-accent-400 hover:opacity-80 transition-opacity"> <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3L2 8l10 5 10-5-10-5z"></path><path d="M2 16l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg> <span class="hidden sm:inline font-display">民法实务知识库</span> </a> </div> <div class="flex items-center gap-2"> <a href="/minfa-kb/search/" class="flex items-center gap-2 px-3 py-1.5 rounded-md bg-primary-100 dark:bg-primary-800/60 text-gray-500 dark:text-gray-400 hover:bg-primary-200 dark:hover:bg-primary-700/60 transition-colors text-sm" title="搜索"> <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg> <span class="hidden md:inline text-xs">搜索</span> <kbd class="hidden md:inline px-1 py-0.5 text-[10px] bg-primary-200/60 dark:bg-primary-700/60 rounded text-gray-400 dark:text-gray-500">⌘K</kbd> </a> <a href="/minfa-kb/graph/" class="p-1.5 rounded-md text-gray-400 dark:text-gray-500 hover:bg-primary-100 dark:hover:bg-primary-800/60 transition-colors" title="知识图谱"> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2"></circle><circle cx="18" cy="6" r="2"></circle><circle cx="6" cy="18" r="2"></circle><circle cx="18" cy="18" r="2"></circle><circle cx="12" cy="12" r="2"></circle><path d="M8 6h8M6 8v8M18 8v8M8 18h8M8 8l4 4M16 8l-4 4M8 16l4-4M16 16l-4-4"></path></svg> </a> <button id="theme-toggle" class="p-1.5 rounded-md text-gray-400 dark:text-gray-500 hover:bg-primary-100 dark:hover:bg-primary-800/60 transition-colors" title="切换主题"> <svg id="theme-light-icon" class="w-4 h-4 hidden" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"></path></svg> <svg id="theme-dark-icon" class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg> </button> <button id="mobile-menu-toggle" class="p-1.5 rounded-md text-gray-400 dark:text-gray-500 hover:bg-primary-100 dark:hover:bg-primary-800/60 transition-colors lg:hidden"> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg> </button> </div> </div> </header> <div class="flex flex-1 max-w-[1400px] mx-auto w-full"> <aside id="sidebar" class="fixed lg:sticky top-14 left-0 z-30 w-56 xl:w-64 h-[calc(100vh-3.5rem)] overflow-y-auto bg-white dark:bg-primary-900/80 border-r border-primary-200 dark:border-primary-800/40 transform -translate-x-full lg:translate-x-0 transition-transform duration-300 flex-shrink-0"> <nav class="p-3 space-y-0.5"> <a href="/minfa-kb/" class="flex items-center gap-2 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="font-display text-xs">首页</span> </a> <div class="pt-3 pb-1.5 px-3 text-[10px] font-medium text-gray-400 dark:text-gray-600 uppercase tracking-widest">知识模块</div> <a href="/minfa-kb/modules/00-%E6%80%BB%E8%AE%BA/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">壹</span> <span class="font-display text-xs">总论</span> </a><a href="/minfa-kb/modules/01-%E5%90%88%E5%90%8C%E6%B3%95/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">贰</span> <span class="font-display text-xs">合同法</span> </a><a href="/minfa-kb/modules/02-%E7%89%A9%E6%9D%83%E6%B3%95/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">叁</span> <span class="font-display text-xs">物权法</span> </a><a href="/minfa-kb/modules/03-%E4%BE%B5%E6%9D%83%E8%B4%A3%E4%BB%BB/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">肆</span> <span class="font-display text-xs">侵权责任</span> </a><a href="/minfa-kb/modules/04-%E5%85%AC%E5%8F%B8%E4%B8%8E%E5%95%86%E4%BA%8B/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">伍</span> <span class="font-display text-xs">公司与商事</span> </a><a href="/minfa-kb/modules/05-%E4%BC%81%E4%B8%9A%E9%A3%8E%E6%8E%A7/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors bg-accent-50 dark:bg-accent-900/15 text-accent-700 dark:text-accent-400 font-medium"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">陆</span> <span class="font-display text-xs">企业风控</span> </a><a href="/minfa-kb/modules/06-%E6%A1%88%E4%BE%8B%E5%BA%93/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">柒</span> <span class="font-display text-xs">案例库</span> </a><a href="/minfa-kb/modules/07-%E5%B7%A5%E5%85%B7%E4%B8%8E%E8%B5%84%E6%BA%90/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">捌</span> <span class="font-display text-xs">工具与资源</span> </a> </nav> </aside> <main class="flex-1 min-w-0 lg:ml-56 xl:ml-64"> <div class="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12 py-10">  <nav class="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-6 flex-wrap"> <a href="/minfa-kb/" class="hover:text-accent-600 dark:hover:text-accent-400">首页</a> <span>/</span> <a href="/minfa-kb/modules/05-%E4%BC%81%E4%B8%9A%E9%A3%8E%E6%8E%A7/" class="hover:text-accent-600 dark:hover:text-accent-400">05-企业风控</a> <span>/</span> <span class="text-gray-800 dark:text-gray-200 truncate">竞业限制</span> </nav> <article class="flex gap-8"> <div class="flex-1 min-w-0"> <header class="mb-8"> <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-primary-800 pb-3 mb-4">竞业限制</h1> <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400 flex-wrap"> <span class="px-2 py-0.5 rounded-full bg-accent-100 dark:bg-accent-900/30 text-accent-700 dark:text-accent-300">05-企业风控</span> <span>2026/05/28</span> <span>1244字</span> <span>4 分钟阅读</span> </div> <div class="flex flex-wrap gap-2 mt-3"> <a href="/minfa-kb/search/?tag=%E6%B0%91%E6%B3%95" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#民法</a><a href="/minfa-kb/search/?tag=%E4%BC%81%E4%B8%9A%E9%A3%8E%E6%8E%A7" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#企业风控</a><a href="/minfa-kb/search/?tag=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#公司治理</a><a href="/minfa-kb/search/?tag=%E7%AB%9E%E4%B8%9A%E9%99%90%E5%88%B6" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#竞业限制</a> </div> </header> <div class="prose"><h2 id="概述">概述</h2>
+<p>竞业限制是企业保护商业秘密和核心竞争力的重要手段，但其适用受到严格限制。本文从竞业限制主体、经济补偿、期限、违约金、解除条件、与商业秘密保护的关系六个方面，全面解析竞业限制的法律规定与实务操作要点，帮助企业合法有效运用竞业限制制度。</p>
+<h2 id="核心内容">核心内容</h2>
+<h3 id="竞业限制核心要素">竞业限制核心要素</h3>
+<div class="table-wrapper"><table><thead>
+<tr>
+<th>要素</th>
+<th>法律要求</th>
+<th>风险提示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>适用主体</td>
+<td>高级管理人员、高级技术人员、其他负有保密义务的人员</td>
+<td>对普通员工约定竞业限制可能被认定无效</td>
+</tr>
+<tr>
+<td>经济补偿</td>
+<td>解除或终止劳动合同后按月支付，不低于离职前12个月平均工资的30%</td>
+<td>未支付补偿金的，劳动者可请求解除竞业限制约定</td>
+</tr>
+<tr>
+<td>限制期限</td>
+<td>最长不得超过2年</td>
+<td>超过2年的部分无效</td>
+</tr>
+<tr>
+<td>竞业范围</td>
+<td>应明确具体行业、地域、业务类型</td>
+<td>范围过宽可能被法院调减</td>
+</tr>
+<tr>
+<td>违约金</td>
+<td>应与经济补偿金额相匹配</td>
+<td>过高可能被法院酌减</td>
+</tr>
+</tbody>
+</table></div><h3 id="防控措施与合规要点">防控措施与合规要点</h3>
+<div class="table-wrapper"><table><thead>
+<tr>
+<th>风险场景</th>
+<th>防控建议</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主体范围不清</td>
+<td>在劳动合同中明确约定竞业限制义务，区分核心人员和一般人员</td>
+</tr>
+<tr>
+<td>补偿金未支付</td>
+<td>建立补偿金按月支付台账，确保及时足额支付</td>
+</tr>
+<tr>
+<td>竞业范围过宽</td>
+<td>根据员工实际接触的商业秘密范围合理限定行业和地域</td>
+</tr>
+<tr>
+<td>违约举证困难</td>
+<td>建立竞业限制监督机制，定期核查离职员工就业情况</td>
+</tr>
+<tr>
+<td>解除程序不当</td>
+<td>解除竞业限制需提前3个月书面通知，并支付已履行期间的补偿金</td>
+</tr>
+</tbody>
+</table></div><h3 id="法律依据">法律依据</h3>
+<ul>
+<li>《劳动合同法》第23条：竞业限制约定</li>
+<li>《劳动合同法》第24条：竞业限制的范围、期限</li>
+<li>《最高人民法院关于审理劳动争议案件适用法律问题的解释（一）》第36-40条：竞业限制的司法适用</li>
+<li>《公司法》第148条：董事、高管的竞业禁止义务</li>
+</ul>
+<h3 id="实务要点">实务要点</h3>
+<ol>
+<li><strong>竞业限制与竞业禁止的区别</strong>：竞业限制基于劳动合同约定，需支付补偿金；竞业禁止基于《公司法》规定，适用于董事高管，无需支付补偿金</li>
+<li><strong>补偿金的最低标准</strong>：月补偿金不低于劳动者离职前12个月平均工资的30%，且不低于当地最低工资标准</li>
+<li><strong>3个月未支付的法律后果</strong>：用人单位3个月未支付经济补偿的，劳动者可请求解除竞业限制约定</li>
+<li><strong>违约金的合理性</strong>：违约金应与补偿金总额相当，过高的违约金（如补偿金的5-10倍）可能被法院调减</li>
+<li><strong>在职期间的竞业禁止</strong>：在职期间的竞业禁止义务是忠实义务的体现，无需另行约定和支付补偿</li>
+</ol>
+<h2 id="典型案例">典型案例</h2>
+<h3 id="案例-竞业限制经济补偿与解除规则">案例：竞业限制经济补偿与解除规则</h3>
+<p><strong>法律依据</strong>：《最高人民法院关于审理劳动争议案件适用法律问题的解释（一）》第36-40条</p>
+<p><strong>核心规则</strong>：</p>
+<ol>
+<li>约定了竞业限制但未约定经济补偿的，劳动者履行义务后可要求按离职前12个月平均工资的30%按月支付</li>
+<li>月平均工资的30%低于当地最低工资标准的，按最低工资标准支付</li>
+<li>用人单位因自身原因导致三个月未支付经济补偿的，劳动者可请求解除竞业限制约定</li>
+</ol>
+<p><strong>实务要点</strong>：竞业限制期限不得超过2年；人员限于高级管理人员、高级技术人员和其他负有保密义务的人员；企业应按月支付补偿，避免因未支付而丧失竞业限制权利。</p>
+<h2 id="参考来源">参考来源</h2>
+<ul>
+<li>《中华人民共和国劳动合同法》</li>
+<li>最高人民法院关于审理劳动争议案件适用法律问题的解释（一）</li>
+<li>《中华人民共和国公司法》第148条</li>
+</ul>
+<h2 id="相关主题">相关主题</h2>
+<ul>
+<li><a href="/minfa-kb/articles/%E5%95%86%E4%B8%9A%E7%A7%98%E5%AF%86%E4%BF%9D%E6%8A%A4/">商业秘密保护</a></li>
+<li><a href="/minfa-kb/articles/%E5%85%B3%E8%81%94%E4%BA%A4%E6%98%93%E5%90%88%E8%A7%84/">关联交易合规</a></li>
+<li><a href="/minfa-kb/articles/%E5%8D%B0%E7%AB%A0%E7%AE%A1%E7%90%86/">印章管理</a></li>
+</ul>
+</div> <div class="mt-12 border-t border-gray-200 dark:border-primary-800 pt-8"> <h2 class="text-xl font-bold text-gray-800 dark:text-gray-200 mb-4">📎 相关文章</h2> <div class="space-y-3"> <a href="/minfa-kb/articles/关联交易合规/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">05-企业风控</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">关联交易合规</div> </div> </a><a href="/minfa-kb/articles/印章管理/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">05-企业风控</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">印章管理</div> </div> </a><a href="/minfa-kb/articles/合同审查要点/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">05-企业风控</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">合同审查要点</div> </div> </a><a href="/minfa-kb/articles/合同谈判策略/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">05-企业风控</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">合同谈判策略</div> </div> </a><a href="/minfa-kb/articles/常见合同风险条款/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">05-企业风控</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">常见合同风险条款</div> </div> </a> </div> </div> </div> <aside class="hidden xl:block w-64 flex-shrink-0"> <div class="sticky top-24"> <h3 class="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-3">目录</h3> <nav id="toc" class="space-y-1 text-sm"></nav> </div> </aside> </article> <script type="module">document.querySelectorAll(".prose h2[id], .prose h3[id], .prose h4[id]").forEach(e=>{const c=document.getElementById("toc");if(!c)return;const t=document.createElement("a");t.href="#"+e.id,t.textContent=e.textContent,t.className="block text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors truncate",e.tagName==="H3"&&(t.className+=" pl-3"),e.tagName==="H4"&&(t.className+=" pl-6"),c.appendChild(t)});</script>  </div> </main> </div> <div id="sidebar-overlay" class="fixed inset-0 z-20 bg-black/40 hidden lg:hidden"></div> <script type="module">const i=document.getElementById("theme-toggle"),t=document.getElementById("theme-light-icon"),n=document.getElementById("theme-dark-icon"),a=document.documentElement.classList.contains("dark");a?(t?.classList.add("hidden"),n?.classList.remove("hidden")):(t?.classList.remove("hidden"),n?.classList.add("hidden"));i?.addEventListener("click",()=>{const e=!document.documentElement.classList.contains("dark");document.documentElement.style.transition="background-color 0.3s, color 0.3s",document.body.style.transition="background-color 0.3s, color 0.3s",e?(document.documentElement.classList.add("dark"),t?.classList.add("hidden"),n?.classList.remove("hidden"),localStorage.setItem("theme","dark")):(document.documentElement.classList.remove("dark"),t?.classList.remove("hidden"),n?.classList.add("hidden"),localStorage.setItem("theme","light")),setTimeout(()=>{document.documentElement.style.transition="",document.body.style.transition=""},300)});const m=document.getElementById("mobile-menu-toggle"),r=document.getElementById("sidebar"),d=document.getElementById("sidebar-overlay");function c(){r?.classList.toggle("-translate-x-full"),d?.classList.toggle("hidden")}m?.addEventListener("click",c);d?.addEventListener("click",c);const s=document.getElementById("reading-progress");window.addEventListener("scroll",()=>{const e=window.scrollY,o=document.documentElement.scrollHeight-window.innerHeight,l=o>0?e/o*100:0;s&&(s.style.width=`${Math.min(100,l)}%`)});document.addEventListener("keydown",e=>{(e.ctrlKey||e.metaKey)&&e.key==="k"&&(e.preventDefault(),window.location.href="/minfa-kb/search/")});</script> </body> </html> 

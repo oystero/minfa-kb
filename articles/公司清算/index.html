@@ -1,0 +1,271 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="民法实务知识库 - 面向诉讼实战的系统化知识框架"><meta name="generator" content="Astro v5.18.2"><link rel="icon" type="image/svg+xml" href="/minfa-kb/favicon.svg"><title>公司清算 | 民法实务知识库</title><script>
+    (function() {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/minfa-kb/_astro/index.kUTxuAnQ.css"></head> <body class="bg-primary-50 dark:bg-primary-950 text-gray-900 dark:text-gray-100 font-sans min-h-screen flex flex-col"> <!-- Reading Progress --> <div id="reading-progress" class="fixed top-0 left-0 h-[2px] bg-accent-500/80 z-50 transition-all duration-150" style="width: 0%"></div> <!-- Header --> <header class="sticky top-0 z-40 bg-white/90 dark:bg-primary-900/90 backdrop-blur-sm border-b border-primary-200 dark:border-primary-800/60"> <div class="max-w-[1400px] mx-auto px-6 h-14 flex items-center justify-between"> <div class="flex items-center gap-3"> <a href="/minfa-kb/" class="flex items-center gap-2.5 text-base font-semibold tracking-tight text-primary-700 dark:text-accent-400 hover:opacity-80 transition-opacity"> <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3L2 8l10 5 10-5-10-5z"></path><path d="M2 16l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg> <span class="hidden sm:inline font-display">民法实务知识库</span> </a> </div> <div class="flex items-center gap-2"> <a href="/minfa-kb/search/" class="flex items-center gap-2 px-3 py-1.5 rounded-md bg-primary-100 dark:bg-primary-800/60 text-gray-500 dark:text-gray-400 hover:bg-primary-200 dark:hover:bg-primary-700/60 transition-colors text-sm" title="搜索"> <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg> <span class="hidden md:inline text-xs">搜索</span> <kbd class="hidden md:inline px-1 py-0.5 text-[10px] bg-primary-200/60 dark:bg-primary-700/60 rounded text-gray-400 dark:text-gray-500">⌘K</kbd> </a> <a href="/minfa-kb/graph/" class="p-1.5 rounded-md text-gray-400 dark:text-gray-500 hover:bg-primary-100 dark:hover:bg-primary-800/60 transition-colors" title="知识图谱"> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2"></circle><circle cx="18" cy="6" r="2"></circle><circle cx="6" cy="18" r="2"></circle><circle cx="18" cy="18" r="2"></circle><circle cx="12" cy="12" r="2"></circle><path d="M8 6h8M6 8v8M18 8v8M8 18h8M8 8l4 4M16 8l-4 4M8 16l4-4M16 16l-4-4"></path></svg> </a> <button id="theme-toggle" class="p-1.5 rounded-md text-gray-400 dark:text-gray-500 hover:bg-primary-100 dark:hover:bg-primary-800/60 transition-colors" title="切换主题"> <svg id="theme-light-icon" class="w-4 h-4 hidden" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"></path></svg> <svg id="theme-dark-icon" class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg> </button> <button id="mobile-menu-toggle" class="p-1.5 rounded-md text-gray-400 dark:text-gray-500 hover:bg-primary-100 dark:hover:bg-primary-800/60 transition-colors lg:hidden"> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg> </button> </div> </div> </header> <div class="flex flex-1 max-w-[1400px] mx-auto w-full"> <aside id="sidebar" class="fixed lg:sticky top-14 left-0 z-30 w-56 xl:w-64 h-[calc(100vh-3.5rem)] overflow-y-auto bg-white dark:bg-primary-900/80 border-r border-primary-200 dark:border-primary-800/40 transform -translate-x-full lg:translate-x-0 transition-transform duration-300 flex-shrink-0"> <nav class="p-3 space-y-0.5"> <a href="/minfa-kb/" class="flex items-center gap-2 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="font-display text-xs">首页</span> </a> <div class="pt-3 pb-1.5 px-3 text-[10px] font-medium text-gray-400 dark:text-gray-600 uppercase tracking-widest">知识模块</div> <a href="/minfa-kb/modules/00-%E6%80%BB%E8%AE%BA/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">壹</span> <span class="font-display text-xs">总论</span> </a><a href="/minfa-kb/modules/01-%E5%90%88%E5%90%8C%E6%B3%95/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">贰</span> <span class="font-display text-xs">合同法</span> </a><a href="/minfa-kb/modules/02-%E7%89%A9%E6%9D%83%E6%B3%95/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">叁</span> <span class="font-display text-xs">物权法</span> </a><a href="/minfa-kb/modules/03-%E4%BE%B5%E6%9D%83%E8%B4%A3%E4%BB%BB/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">肆</span> <span class="font-display text-xs">侵权责任</span> </a><a href="/minfa-kb/modules/04-%E5%85%AC%E5%8F%B8%E4%B8%8E%E5%95%86%E4%BA%8B/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors bg-accent-50 dark:bg-accent-900/15 text-accent-700 dark:text-accent-400 font-medium"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">伍</span> <span class="font-display text-xs">公司与商事</span> </a><a href="/minfa-kb/modules/05-%E4%BC%81%E4%B8%9A%E9%A3%8E%E6%8E%A7/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">陆</span> <span class="font-display text-xs">企业风控</span> </a><a href="/minfa-kb/modules/06-%E6%A1%88%E4%BE%8B%E5%BA%93/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">柒</span> <span class="font-display text-xs">案例库</span> </a><a href="/minfa-kb/modules/07-%E5%B7%A5%E5%85%B7%E4%B8%8E%E8%B5%84%E6%BA%90/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">捌</span> <span class="font-display text-xs">工具与资源</span> </a> </nav> </aside> <main class="flex-1 min-w-0 lg:ml-56 xl:ml-64"> <div class="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12 py-10">  <nav class="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-6 flex-wrap"> <a href="/minfa-kb/" class="hover:text-accent-600 dark:hover:text-accent-400">首页</a> <span>/</span> <a href="/minfa-kb/modules/04-%E5%85%AC%E5%8F%B8%E4%B8%8E%E5%95%86%E4%BA%8B/" class="hover:text-accent-600 dark:hover:text-accent-400">04-公司与商事</a> <span>/</span> <span class="text-gray-800 dark:text-gray-200 truncate">公司清算</span> </nav> <article class="flex gap-8"> <div class="flex-1 min-w-0"> <header class="mb-8"> <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-primary-800 pb-3 mb-4">公司清算</h1> <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400 flex-wrap"> <span class="px-2 py-0.5 rounded-full bg-accent-100 dark:bg-accent-900/30 text-accent-700 dark:text-accent-300">04-公司与商事</span> <span>2026/05/28</span> <span>2795字</span> <span>7 分钟阅读</span> </div> <div class="flex flex-wrap gap-2 mt-3"> <a href="/minfa-kb/search/?tag=%E6%B0%91%E6%B3%95" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#民法</a><a href="/minfa-kb/search/?tag=%E5%85%AC%E5%8F%B8%E6%B3%95" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#公司法</a><a href="/minfa-kb/search/?tag=%E5%85%AC%E5%8F%B8%E6%B8%85%E7%AE%97" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#公司清算</a><a href="/minfa-kb/search/?tag=%E6%B8%85%E7%AE%97%E4%B9%89%E5%8A%A1%E4%BA%BA" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#清算义务人</a><a href="/minfa-kb/search/?tag=%E6%B3%A8%E9%94%80%E7%99%BB%E8%AE%B0" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#注销登记</a> </div> </header> <div class="prose"><h2 id="概述">概述</h2>
+<p>公司清算是指公司解散后，依照法定程序清理公司债权债务，分配剩余财产，最终消灭公司法人资格的法律程序。清算是公司退出市场的必经程序，也是保护债权人利益的重要制度。2023年新《公司法》明确了清算义务人的范围和责任，强化了董事的清算义务。</p>
+<h2 id="核心内容">核心内容</h2>
+<h3 id="一-法律依据">一、法律依据</h3>
+<div class="table-wrapper"><table><thead>
+<tr>
+<th>法律法规</th>
+<th>条文</th>
+<th>内容要点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>《公司法》(2023修订)</td>
+<td>第231条</td>
+<td>清算义务人的确定</td>
+</tr>
+<tr>
+<td>《公司法》(2023修订)</td>
+<td>第232条</td>
+<td>清算组的组成</td>
+</tr>
+<tr>
+<td>《公司法》(2023修订)</td>
+<td>第233条</td>
+<td>清算组的职权</td>
+</tr>
+<tr>
+<td>《公司法》(2023修订)</td>
+<td>第234条</td>
+<td>清算程序</td>
+</tr>
+<tr>
+<td>《公司法》(2023修订)</td>
+<td>第235条</td>
+<td>清算中的债权人保护</td>
+</tr>
+<tr>
+<td>《公司法》(2023修订)</td>
+<td>第236条</td>
+<td>清算方案的确认</td>
+</tr>
+<tr>
+<td>《公司法》(2023修订)</td>
+<td>第237条</td>
+<td>清算结束后的注销</td>
+</tr>
+<tr>
+<td>《公司法》(2023修订)</td>
+<td>第238条</td>
+<td>清算义务人的责任</td>
+</tr>
+<tr>
+<td>最高法院公司法解释(二)</td>
+<td>第7-23条</td>
+<td>清算的细化规定</td>
+</tr>
+<tr>
+<td>《民法典》</td>
+<td>第70条</td>
+<td>法人清算义务人</td>
+</tr>
+</tbody>
+</table></div><h3 id="二-清算的类型">二、清算的类型</h3>
+<div class="table-wrapper"><table><thead>
+<tr>
+<th>类型</th>
+<th>适用情形</th>
+<th>主要特点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>自行清算</td>
+<td>公司解散后自行组织清算</td>
+<td>由清算义务人组成清算组</td>
+</tr>
+<tr>
+<td>强制清算</td>
+<td>逾期不成立清算组或清算组故意拖延</td>
+<td>由人民法院指定清算组</td>
+</tr>
+<tr>
+<td>破产清算</td>
+<td>公司资不抵债</td>
+<td>适用《企业破产法》</td>
+</tr>
+</tbody>
+</table></div><h3 id="三-清算义务人与清算组">三、清算义务人与清算组</h3>
+<h4 id="一-清算义务人">（一）清算义务人</h4>
+<p>根据《公司法》第231条和《民法典》第70条：</p>
+<ul>
+<li><strong>有限责任公司</strong>：全体股东</li>
+<li><strong>股份有限公司</strong>：董事或者股东大会确定的人员</li>
+</ul>
+<p>清算义务人的法定义务：</p>
+<ol>
+<li>在解散事由出现之日起十五日内成立清算组</li>
+<li>开始清算</li>
+<li>逾期不成立清算组的，债权人可以申请人民法院指定有关人员组成清算组</li>
+</ol>
+<h4 id="二-清算组的组成">（二）清算组的组成</h4>
+<p>根据《公司法》第232条：</p>
+<ul>
+<li><strong>有限责任公司</strong>：由股东组成</li>
+<li><strong>股份有限公司</strong>：由董事或者股东大会确定的人员组成</li>
+<li><strong>人民法院指定</strong>：由人民法院指定的有关人员组成</li>
+</ul>
+<h4 id="三-清算组的职权">（三）清算组的职权</h4>
+<p>根据《公司法》第233条：</p>
+<ol>
+<li>清理公司财产，分别编制资产负债表和财产清单</li>
+<li>通知、公告债权人</li>
+<li>处理与清算有关的公司未了结的业务</li>
+<li>清缴所欠税款以及清算过程中产生的税款</li>
+<li>清理债权、债务</li>
+<li>分配公司清偿债务后的剩余财产</li>
+<li>代表公司参与民事诉讼活动</li>
+</ol>
+<h3 id="四-清算程序">四、清算程序</h3>
+<h4 id="一-通知与公告">（一）通知与公告</h4>
+<p>根据《公司法》第235条：</p>
+<ul>
+<li>清算组应当自成立之日起十日内通知债权人</li>
+<li>并于六十日内在报纸上或者国家企业信用信息公示系统公告</li>
+<li>债权人应当自接到通知之日起三十日内，未接到通知的自公告之日起四十五日内，向清算组申报债权</li>
+</ul>
+<h4 id="二-债权申报与确认">（二）债权申报与确认</h4>
+<ul>
+<li>债权人申报债权时，应当说明债权的有关事项，并提供证明材料</li>
+<li>清算组应当对债权进行登记</li>
+<li>在申报债权期间，清算组不得对债权人进行清偿</li>
+</ul>
+<h4 id="三-财产分配顺序">（三）财产分配顺序</h4>
+<p>根据《公司法》第236条，公司财产在分别支付清算费用、职工的工资、社会保险费用和法定补偿金，缴纳所欠税款，清偿公司债务后的剩余财产：</p>
+<ul>
+<li><strong>有限责任公司</strong>：按照股东的出资比例分配</li>
+<li><strong>股份有限公司</strong>：按照股东持有的股份比例分配</li>
+</ul>
+<h4 id="四-清算方案的确认">（四）清算方案的确认</h4>
+<ul>
+<li>清算组制定清算方案</li>
+<li>报股东会或者人民法院确认</li>
+<li>清算方案未经确认不得执行</li>
+</ul>
+<h3 id="五-裁判规则">五、裁判规则</h3>
+<div class="table-wrapper"><table><thead>
+<tr>
+<th>序号</th>
+<th>争议焦点</th>
+<th>裁判规则</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>清算义务人的责任</td>
+<td>清算义务人未在法定期限内成立清算组开始清算，导致公司财产贬值、流失、毁损或者灭失的，应当在造成损失范围内对公司债务承担赔偿责任</td>
+<td>《公司法》第238条</td>
+</tr>
+<tr>
+<td>2</td>
+<td>怠于清算的连带责任</td>
+<td>有限责任公司的股东、股份有限公司的董事和控股股东因怠于履行义务，导致公司主要财产、账册、重要文件等灭失，无法进行清算的，应当对公司债务承担连带责任</td>
+<td>公司法解释(二)第18条第2款</td>
+</tr>
+<tr>
+<td>3</td>
+<td>清算组成员的责任</td>
+<td>清算组成员因故意或者重大过失给公司或者债权人造成损失的，应当承担赔偿责任</td>
+<td>公司法解释(二)第11条</td>
+</tr>
+<tr>
+<td>4</td>
+<td>未经清算注销的责任</td>
+<td>公司未经清算即办理注销登记，导致公司无法进行清算的，股东应当对公司债务承担清偿责任</td>
+<td>公司法解释(二)第20条</td>
+</tr>
+<tr>
+<td>5</td>
+<td>强制清算的申请</td>
+<td>债权人、股东或其他利害关系人在法定条件下可以申请人民法院对公司进行强制清算</td>
+<td>《公司法》第231条</td>
+</tr>
+<tr>
+<td>6</td>
+<td>清算中的诉讼主体</td>
+<td>公司依法清算结束并办理注销登记前，有关公司的民事诉讼，应当以公司的名义进行</td>
+<td>公司法解释(二)第10条</td>
+</tr>
+<tr>
+<td>7</td>
+<td>剩余财产分配</td>
+<td>公司财产在清偿全部债务后仍有剩余的，按照股东出资比例或股份比例分配</td>
+<td>《公司法》第236条</td>
+</tr>
+</tbody>
+</table></div><h3 id="六-实务要点">六、实务要点</h3>
+<p><strong>1. 清算的及时启动</strong></p>
+<ul>
+<li>解散事由出现后15日内成立清算组</li>
+<li>保留清算组成立的证据</li>
+<li>及时通知已知债权人</li>
+</ul>
+<p><strong>2. 清算组的规范运作</strong></p>
+<ul>
+<li>按照法定程序清理公司财产</li>
+<li>妥善保管公司账册和重要文件</li>
+<li>依法通知和公告债权人</li>
+<li>编制规范的清算报告</li>
+</ul>
+<p><strong>3. 债权人保护</strong></p>
+<ul>
+<li>逐一通知已知债权人</li>
+<li>在报纸或国家企业信用信息公示系统公告</li>
+<li>依法确认和清偿债务</li>
+<li>不得在清偿债务前分配财产</li>
+</ul>
+<p><strong>4. 清算义务人的风险防范</strong></p>
+<ul>
+<li>及时组织清算，避免怠于清算</li>
+<li>妥善保管公司账册和重要文件</li>
+<li>清算过程中勤勉尽责</li>
+<li>必要时聘请专业律师和会计师</li>
+</ul>
+<p><strong>5. 简易注销的适用</strong></p>
+<ul>
+<li>符合条件的公司可以适用简易注销程序</li>
+<li>简易注销无需进行清算</li>
+<li>适用条件：未开业或无债权债务</li>
+</ul>
+<h2 id="典型案例">典型案例</h2>
+<h3 id="案例-王某月诉薛某亮清算责任纠纷案-职业闭店人-案">案例：王某月诉薛某亮清算责任纠纷案（&quot;职业闭店人&quot;案）</h3>
+<p><strong>案号/入库编号</strong>：入库编号2025-08-2-284-001（一审：（2024）京0106民初3698号）</p>
+<p><strong>审理法院</strong>：北京市丰台区人民法院</p>
+<p><strong>基本案情</strong>：原告王某月系某健康管理公司瑜伽店会员，店铺闭店后会员卡余额8260元未退还。该公司原股东刘某将100%股权无偿转让给从事&quot;职业闭店&quot;业务的薛某亮，薛某亮随即以虚假的清算报告（载明债权债务已结清、已发布注销公告，但实际上未发布公告也未依法成立清算组）骗取登记机关注销公司。</p>
+<p><strong>裁判要旨</strong>：&quot;职业闭店人&quot;以帮助经营者逃避公司债务为目的，受让公司股权成为公司股东，后以虚假的清算报告骗取公司登记机关办理法人注销登记，致使债权人债权无法受偿，债权人主张该&quot;职业闭店人&quot;承担相应民事赔偿责任的，人民法院应予支持。</p>
+<p><strong>实务要点</strong>：</p>
+<ol>
+<li>股权变更不能成为&quot;避债工具&quot;，清算义务人（包括受让股权的新股东）必须依法履行清算义务</li>
+<li>以虚假清算报告骗取注销登记的，属于未经依法清算，债权人可依据公司法解释(二)第19条主张赔偿</li>
+</ol>
+<p><strong>与知识点的关联</strong>：本案是新《公司法》背景下入库案例，明确了&quot;职业闭店人&quot;的法律责任，强化了清算义务人的责任追究机制，对治理&quot;逃废债&quot;乱象具有重要指导意义。</p>
+<blockquote>
+<p><strong>案号</strong>：（2024）京0106民初3698号（2024年4月3日判决）</p>
+</blockquote>
+<h2 id="参考来源">参考来源</h2>
+<ul>
+<li>《中华人民共和国公司法》(2023年12月29日修订)第231-238条</li>
+<li>《最高人民法院关于适用〈中华人民共和国公司法〉若干问题的规定(二)》(法释〔2008〕6号，2020年修正)</li>
+<li>《中华人民共和国民法典》第70条</li>
+<li>最高人民法院指导案例9号：上海存亮贸易有限公司诉蒋志东、王卫明等买卖合同纠纷案（已废止，自2021年1月1日起不再参照，见《最高人民法院关于部分指导性案例不再参照的通知》法〔2020〕343号），<a href="https://zh.wikisource.org/wiki/%E6%8C%87%E5%AF%BC%E6%A1%88%E4%BE%8B9%E5%8F%B7">https://zh.wikisource.org/wiki/指导案例9号</a></li>
+<li>赵旭东：《公司法学》，高等教育出版社</li>
+<li>刘俊海：《现代公司法》，法律出版社</li>
+</ul>
+<h2 id="相关主题">相关主题</h2>
+<ul>
+<li><a href="/minfa-kb/articles/%E5%85%AC%E5%8F%B8%E8%A7%A3%E6%95%A3/">公司解散</a> - 清算的前置程序</li>
+<li><a href="/minfa-kb/search/?q=%E5%85%AC%E5%8F%B8%E7%A0%B4%E4%BA%A7">公司破产</a> - 资不抵债时的破产清算</li>
+<li><a href="/minfa-kb/articles/%E8%82%A1%E4%B8%9C%E5%87%BA%E8%B5%84%E8%B4%A3%E4%BB%BB/">股东出资责任</a> - 清算义务人的责任</li>
+<li><a href="/minfa-kb/search/?q=%E5%80%BA%E6%9D%83%E4%BA%BA%E4%BF%9D%E6%8A%A4">债权人保护</a> - 清算中债权人的权利</li>
+</ul>
+</div> <div class="mt-12 border-t border-gray-200 dark:border-primary-800 pt-8"> <h2 class="text-xl font-bold text-gray-800 dark:text-gray-200 mb-4">📎 相关文章</h2> <div class="space-y-3"> <a href="/minfa-kb/articles/公司人格否认/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">04-公司与商事</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">公司人格否认</div> </div> </a><a href="/minfa-kb/articles/公司决议效力/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">04-公司与商事</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">公司决议效力</div> </div> </a><a href="/minfa-kb/articles/股东出资责任/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">04-公司与商事</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">股东出资责任</div> </div> </a><a href="/minfa-kb/articles/股东权利保护/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">04-公司与商事</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">股东权利保护</div> </div> </a><a href="/minfa-kb/articles/董事高管责任/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">04-公司与商事</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">董事高管责任</div> </div> </a> </div> </div> </div> <aside class="hidden xl:block w-64 flex-shrink-0"> <div class="sticky top-24"> <h3 class="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-3">目录</h3> <nav id="toc" class="space-y-1 text-sm"></nav> </div> </aside> </article> <script type="module">document.querySelectorAll(".prose h2[id], .prose h3[id], .prose h4[id]").forEach(e=>{const c=document.getElementById("toc");if(!c)return;const t=document.createElement("a");t.href="#"+e.id,t.textContent=e.textContent,t.className="block text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors truncate",e.tagName==="H3"&&(t.className+=" pl-3"),e.tagName==="H4"&&(t.className+=" pl-6"),c.appendChild(t)});</script>  </div> </main> </div> <div id="sidebar-overlay" class="fixed inset-0 z-20 bg-black/40 hidden lg:hidden"></div> <script type="module">const i=document.getElementById("theme-toggle"),t=document.getElementById("theme-light-icon"),n=document.getElementById("theme-dark-icon"),a=document.documentElement.classList.contains("dark");a?(t?.classList.add("hidden"),n?.classList.remove("hidden")):(t?.classList.remove("hidden"),n?.classList.add("hidden"));i?.addEventListener("click",()=>{const e=!document.documentElement.classList.contains("dark");document.documentElement.style.transition="background-color 0.3s, color 0.3s",document.body.style.transition="background-color 0.3s, color 0.3s",e?(document.documentElement.classList.add("dark"),t?.classList.add("hidden"),n?.classList.remove("hidden"),localStorage.setItem("theme","dark")):(document.documentElement.classList.remove("dark"),t?.classList.remove("hidden"),n?.classList.add("hidden"),localStorage.setItem("theme","light")),setTimeout(()=>{document.documentElement.style.transition="",document.body.style.transition=""},300)});const m=document.getElementById("mobile-menu-toggle"),r=document.getElementById("sidebar"),d=document.getElementById("sidebar-overlay");function c(){r?.classList.toggle("-translate-x-full"),d?.classList.toggle("hidden")}m?.addEventListener("click",c);d?.addEventListener("click",c);const s=document.getElementById("reading-progress");window.addEventListener("scroll",()=>{const e=window.scrollY,o=document.documentElement.scrollHeight-window.innerHeight,l=o>0?e/o*100:0;s&&(s.style.width=`${Math.min(100,l)}%`)});document.addEventListener("keydown",e=>{(e.ctrlKey||e.metaKey)&&e.key==="k"&&(e.preventDefault(),window.location.href="/minfa-kb/search/")});</script> </body> </html> 

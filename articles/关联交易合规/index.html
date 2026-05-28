@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="民法实务知识库 - 面向诉讼实战的系统化知识框架"><meta name="generator" content="Astro v5.18.2"><link rel="icon" type="image/svg+xml" href="/minfa-kb/favicon.svg"><title>关联交易合规 | 民法实务知识库</title><script>
+    (function() {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/minfa-kb/_astro/index.kUTxuAnQ.css"></head> <body class="bg-primary-50 dark:bg-primary-950 text-gray-900 dark:text-gray-100 font-sans min-h-screen flex flex-col"> <!-- Reading Progress --> <div id="reading-progress" class="fixed top-0 left-0 h-[2px] bg-accent-500/80 z-50 transition-all duration-150" style="width: 0%"></div> <!-- Header --> <header class="sticky top-0 z-40 bg-white/90 dark:bg-primary-900/90 backdrop-blur-sm border-b border-primary-200 dark:border-primary-800/60"> <div class="max-w-[1400px] mx-auto px-6 h-14 flex items-center justify-between"> <div class="flex items-center gap-3"> <a href="/minfa-kb/" class="flex items-center gap-2.5 text-base font-semibold tracking-tight text-primary-700 dark:text-accent-400 hover:opacity-80 transition-opacity"> <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3L2 8l10 5 10-5-10-5z"></path><path d="M2 16l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg> <span class="hidden sm:inline font-display">民法实务知识库</span> </a> </div> <div class="flex items-center gap-2"> <a href="/minfa-kb/search/" class="flex items-center gap-2 px-3 py-1.5 rounded-md bg-primary-100 dark:bg-primary-800/60 text-gray-500 dark:text-gray-400 hover:bg-primary-200 dark:hover:bg-primary-700/60 transition-colors text-sm" title="搜索"> <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg> <span class="hidden md:inline text-xs">搜索</span> <kbd class="hidden md:inline px-1 py-0.5 text-[10px] bg-primary-200/60 dark:bg-primary-700/60 rounded text-gray-400 dark:text-gray-500">⌘K</kbd> </a> <a href="/minfa-kb/graph/" class="p-1.5 rounded-md text-gray-400 dark:text-gray-500 hover:bg-primary-100 dark:hover:bg-primary-800/60 transition-colors" title="知识图谱"> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2"></circle><circle cx="18" cy="6" r="2"></circle><circle cx="6" cy="18" r="2"></circle><circle cx="18" cy="18" r="2"></circle><circle cx="12" cy="12" r="2"></circle><path d="M8 6h8M6 8v8M18 8v8M8 18h8M8 8l4 4M16 8l-4 4M8 16l4-4M16 16l-4-4"></path></svg> </a> <button id="theme-toggle" class="p-1.5 rounded-md text-gray-400 dark:text-gray-500 hover:bg-primary-100 dark:hover:bg-primary-800/60 transition-colors" title="切换主题"> <svg id="theme-light-icon" class="w-4 h-4 hidden" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"></path></svg> <svg id="theme-dark-icon" class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg> </button> <button id="mobile-menu-toggle" class="p-1.5 rounded-md text-gray-400 dark:text-gray-500 hover:bg-primary-100 dark:hover:bg-primary-800/60 transition-colors lg:hidden"> <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg> </button> </div> </div> </header> <div class="flex flex-1 max-w-[1400px] mx-auto w-full"> <aside id="sidebar" class="fixed lg:sticky top-14 left-0 z-30 w-56 xl:w-64 h-[calc(100vh-3.5rem)] overflow-y-auto bg-white dark:bg-primary-900/80 border-r border-primary-200 dark:border-primary-800/40 transform -translate-x-full lg:translate-x-0 transition-transform duration-300 flex-shrink-0"> <nav class="p-3 space-y-0.5"> <a href="/minfa-kb/" class="flex items-center gap-2 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="font-display text-xs">首页</span> </a> <div class="pt-3 pb-1.5 px-3 text-[10px] font-medium text-gray-400 dark:text-gray-600 uppercase tracking-widest">知识模块</div> <a href="/minfa-kb/modules/00-%E6%80%BB%E8%AE%BA/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">壹</span> <span class="font-display text-xs">总论</span> </a><a href="/minfa-kb/modules/01-%E5%90%88%E5%90%8C%E6%B3%95/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">贰</span> <span class="font-display text-xs">合同法</span> </a><a href="/minfa-kb/modules/02-%E7%89%A9%E6%9D%83%E6%B3%95/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">叁</span> <span class="font-display text-xs">物权法</span> </a><a href="/minfa-kb/modules/03-%E4%BE%B5%E6%9D%83%E8%B4%A3%E4%BB%BB/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">肆</span> <span class="font-display text-xs">侵权责任</span> </a><a href="/minfa-kb/modules/04-%E5%85%AC%E5%8F%B8%E4%B8%8E%E5%95%86%E4%BA%8B/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">伍</span> <span class="font-display text-xs">公司与商事</span> </a><a href="/minfa-kb/modules/05-%E4%BC%81%E4%B8%9A%E9%A3%8E%E6%8E%A7/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors bg-accent-50 dark:bg-accent-900/15 text-accent-700 dark:text-accent-400 font-medium"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">陆</span> <span class="font-display text-xs">企业风控</span> </a><a href="/minfa-kb/modules/06-%E6%A1%88%E4%BE%8B%E5%BA%93/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">柒</span> <span class="font-display text-xs">案例库</span> </a><a href="/minfa-kb/modules/07-%E5%B7%A5%E5%85%B7%E4%B8%8E%E8%B5%84%E6%BA%90/" class="flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors text-gray-600 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-primary-800/40"> <span class="w-5 text-center text-[11px] font-medium text-gray-400 dark:text-gray-600">捌</span> <span class="font-display text-xs">工具与资源</span> </a> </nav> </aside> <main class="flex-1 min-w-0 lg:ml-56 xl:ml-64"> <div class="max-w-5xl mx-auto px-6 sm:px-8 lg:px-12 py-10">  <nav class="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-6 flex-wrap"> <a href="/minfa-kb/" class="hover:text-accent-600 dark:hover:text-accent-400">首页</a> <span>/</span> <a href="/minfa-kb/modules/05-%E4%BC%81%E4%B8%9A%E9%A3%8E%E6%8E%A7/" class="hover:text-accent-600 dark:hover:text-accent-400">05-企业风控</a> <span>/</span> <span class="text-gray-800 dark:text-gray-200 truncate">关联交易合规</span> </nav> <article class="flex gap-8"> <div class="flex-1 min-w-0"> <header class="mb-8"> <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100 border-b border-gray-200 dark:border-primary-800 pb-3 mb-4">关联交易合规</h1> <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400 flex-wrap"> <span class="px-2 py-0.5 rounded-full bg-accent-100 dark:bg-accent-900/30 text-accent-700 dark:text-accent-300">05-企业风控</span> <span>2026/05/28</span> <span>1247字</span> <span>4 分钟阅读</span> </div> <div class="flex flex-wrap gap-2 mt-3"> <a href="/minfa-kb/search/?tag=%E6%B0%91%E6%B3%95" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#民法</a><a href="/minfa-kb/search/?tag=%E4%BC%81%E4%B8%9A%E9%A3%8E%E6%8E%A7" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#企业风控</a><a href="/minfa-kb/search/?tag=%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%86" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#公司治理</a><a href="/minfa-kb/search/?tag=%E5%85%B3%E8%81%94%E4%BA%A4%E6%98%93" class="text-xs px-2 py-0.5 rounded-full bg-gray-100 dark:bg-primary-800 text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">#关联交易</a> </div> </header> <div class="prose"><h2 id="概述">概述</h2>
+<p>关联交易是企业经营中的常见现象，本身并不违法，但因存在利益冲突，极易演变为损害公司和中小股东利益的工具。本文从关联交易认定、信息披露、表决回避、公允价格、股东代表诉讼、利益输送六个维度，系统解析关联交易的法律规制与合规要点。</p>
+<h2 id="核心内容">核心内容</h2>
+<h3 id="关联交易类型与认定">关联交易类型与认定</h3>
+<div class="table-wrapper"><table><thead>
+<tr>
+<th>关联关系类型</th>
+<th>认定标准</th>
+<th>典型场景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>控股股东/实际控制人</td>
+<td>持股50%以上或实际支配公司行为</td>
+<td>母子公司之间的交易</td>
+</tr>
+<tr>
+<td>董监高及其近亲属</td>
+<td>在公司任职的董事、监事、高级管理人员</td>
+<td>公司与董事配偶控制的企业交易</td>
+</tr>
+<tr>
+<td>关联法人</td>
+<td>直接或间接控制的其他企业</td>
+<td>同一控制下的兄弟公司交易</td>
+</tr>
+<tr>
+<td>关联自然人</td>
+<td>持股5%以上的自然人股东</td>
+<td>公司与大股东个人的交易</td>
+</tr>
+</tbody>
+</table></div><h3 id="合规措施">合规措施</h3>
+<div class="table-wrapper"><table><thead>
+<tr>
+<th>风险环节</th>
+<th>合规措施</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>关联交易识别</td>
+<td>建立关联方清单，定期更新，交易前强制关联关系申报</td>
+</tr>
+<tr>
+<td>信息披露</td>
+<td>上市公司依法披露，非上市公司向股东会报告</td>
+</tr>
+<tr>
+<td>表决回避</td>
+<td>关联股东/关联董事在表决时回避，由非关联方表决</td>
+</tr>
+<tr>
+<td>价格公允</td>
+<td>参照市场价格或独立第三方评估，保留定价依据</td>
+</tr>
+<tr>
+<td>审批程序</td>
+<td>达到一定金额的关联交易提交股东会审议批准</td>
+</tr>
+<tr>
+<td>档案管理</td>
+<td>留存关联交易的决策过程、定价依据、履行情况</td>
+</tr>
+</tbody>
+</table></div><h3 id="法律依据">法律依据</h3>
+<ul>
+<li>《公司法》第21条：关联交易损害赔偿责任</li>
+<li>《公司法》第182条：董事忠实义务</li>
+<li>《公司法》第124条：上市公司关联交易表决规则</li>
+<li>《民法典》第154条：恶意串通损害他人利益的民事法律行为无效</li>
+<li>《证券法》第80条：上市公司关联交易信息披露</li>
+</ul>
+<h3 id="实务要点">实务要点</h3>
+<ol>
+<li><strong>关联交易的合法性边界</strong>：关联交易合法的前提是程序合规（信息披露、表决回避）且实质公平（价格公允、不损害公司利益）</li>
+<li><strong>举证责任分配</strong>：关联交易被质疑时，控股股东/实际控制人需证明交易的公平性，举证责任倒置</li>
+<li><strong>股东代表诉讼的前置程序</strong>：股东提起代表诉讼前应先书面请求监事会/董事会起诉，被拒绝或30日内未起诉方可自行起诉</li>
+<li><strong>价格公允的判断标准</strong>：参照同类交易的市场价格，必要时聘请独立第三方评估机构出具评估报告</li>
+<li><strong>利益输送的识别特征</strong>：明显偏离市场价格、交易条件明显优于第三方、缺乏商业合理性</li>
+</ol>
+<h2 id="典型案例">典型案例</h2>
+<h3 id="案例-新-公司法-关联交易制度要点">案例：新《公司法》关联交易制度要点</h3>
+<p><strong>法律依据</strong>：《公司法》（2024年修订）第182条、第183条</p>
+<p><strong>制度要点</strong>：</p>
+<ol>
+<li>董事、监事、高级管理人员直接或者间接与本公司订立合同或者进行交易，应当就与订立合同或者进行交易有关的事项向董事会或者股东会报告，并经决议通过</li>
+<li>关联董事在董事会审议关联交易时应当回避表决</li>
+<li>违反关联交易规定所得的收入应当归公司所有</li>
+</ol>
+<p><strong>新法变化</strong>（2024年7月1日起施行）：扩大了关联交易的主体范围，将控股股东、实际控制人纳入规制；明确了关联交易的程序要求和信息披露义务；强化了董事、高管违反关联交易义务的民事赔偿责任。</p>
+<p><strong>实务要点</strong>：企业应建立关联交易审批制度，明确关联方的识别标准、交易审批流程、信息披露要求，防范关联交易风险。</p>
+<h2 id="参考来源">参考来源</h2>
+<ul>
+<li>《中华人民共和国公司法》</li>
+<li>《中华人民共和国证券法》</li>
+<li>最高人民法院关于适用《公司法》若干问题的规定（五）</li>
+</ul>
+<h2 id="相关主题">相关主题</h2>
+<ul>
+<li><a href="/minfa-kb/articles/%E5%8D%B0%E7%AB%A0%E7%AE%A1%E7%90%86/">印章管理</a></li>
+<li><a href="/minfa-kb/articles/%E7%AB%9E%E4%B8%9A%E9%99%90%E5%88%B6/">竞业限制</a></li>
+<li><a href="/minfa-kb/articles/%E5%95%86%E4%B8%9A%E7%A7%98%E5%AF%86%E4%BF%9D%E6%8A%A4/">商业秘密保护</a></li>
+<li><a href="/minfa-kb/articles/%E6%8B%85%E4%BF%9D%E9%A3%8E%E9%99%A9/">担保风险</a></li>
+</ul>
+</div> <div class="mt-12 border-t border-gray-200 dark:border-primary-800 pt-8"> <h2 class="text-xl font-bold text-gray-800 dark:text-gray-200 mb-4">📎 相关文章</h2> <div class="space-y-3"> <a href="/minfa-kb/articles/印章管理/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">05-企业风控</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">印章管理</div> </div> </a><a href="/minfa-kb/articles/竞业限制/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">05-企业风控</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">竞业限制</div> </div> </a><a href="/minfa-kb/articles/合同审查要点/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">05-企业风控</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">合同审查要点</div> </div> </a><a href="/minfa-kb/articles/合同谈判策略/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">05-企业风控</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">合同谈判策略</div> </div> </a><a href="/minfa-kb/articles/常见合同风险条款/" class="group flex items-start gap-3 bg-white dark:bg-primary-900 rounded-lg p-3 border border-gray-200 dark:border-primary-800 hover:border-accent-300 dark:hover:border-accent-600 transition-all"> <div class="flex-1 min-w-0"> <div class="text-xs text-gray-400 dark:text-gray-500 mb-1">05-企业风控</div> <div class="font-medium text-gray-800 dark:text-gray-200 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors">常见合同风险条款</div> </div> </a> </div> </div> </div> <aside class="hidden xl:block w-64 flex-shrink-0"> <div class="sticky top-24"> <h3 class="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-3">目录</h3> <nav id="toc" class="space-y-1 text-sm"></nav> </div> </aside> </article> <script type="module">document.querySelectorAll(".prose h2[id], .prose h3[id], .prose h4[id]").forEach(e=>{const c=document.getElementById("toc");if(!c)return;const t=document.createElement("a");t.href="#"+e.id,t.textContent=e.textContent,t.className="block text-gray-500 dark:text-gray-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors truncate",e.tagName==="H3"&&(t.className+=" pl-3"),e.tagName==="H4"&&(t.className+=" pl-6"),c.appendChild(t)});</script>  </div> </main> </div> <div id="sidebar-overlay" class="fixed inset-0 z-20 bg-black/40 hidden lg:hidden"></div> <script type="module">const i=document.getElementById("theme-toggle"),t=document.getElementById("theme-light-icon"),n=document.getElementById("theme-dark-icon"),a=document.documentElement.classList.contains("dark");a?(t?.classList.add("hidden"),n?.classList.remove("hidden")):(t?.classList.remove("hidden"),n?.classList.add("hidden"));i?.addEventListener("click",()=>{const e=!document.documentElement.classList.contains("dark");document.documentElement.style.transition="background-color 0.3s, color 0.3s",document.body.style.transition="background-color 0.3s, color 0.3s",e?(document.documentElement.classList.add("dark"),t?.classList.add("hidden"),n?.classList.remove("hidden"),localStorage.setItem("theme","dark")):(document.documentElement.classList.remove("dark"),t?.classList.remove("hidden"),n?.classList.add("hidden"),localStorage.setItem("theme","light")),setTimeout(()=>{document.documentElement.style.transition="",document.body.style.transition=""},300)});const m=document.getElementById("mobile-menu-toggle"),r=document.getElementById("sidebar"),d=document.getElementById("sidebar-overlay");function c(){r?.classList.toggle("-translate-x-full"),d?.classList.toggle("hidden")}m?.addEventListener("click",c);d?.addEventListener("click",c);const s=document.getElementById("reading-progress");window.addEventListener("scroll",()=>{const e=window.scrollY,o=document.documentElement.scrollHeight-window.innerHeight,l=o>0?e/o*100:0;s&&(s.style.width=`${Math.min(100,l)}%`)});document.addEventListener("keydown",e=>{(e.ctrlKey||e.metaKey)&&e.key==="k"&&(e.preventDefault(),window.location.href="/minfa-kb/search/")});</script> </body> </html> 
